@@ -3,6 +3,7 @@ import requests
 import re
 import json
 from datetime import date
+import utils
 
 sites = [
     {
@@ -102,7 +103,7 @@ def ig_followers(url):
             followers = x.group().replace(' Followers', '').replace(',', '')
             return followers.strip()
         else:
-            return 'NA'
+            return ''
     else:
         return ''
 
@@ -174,20 +175,20 @@ SITE     FB      TW    YT     IG    PI
 '''
     for site in sites:
         print(f'''Processing {site['site']}''')
-        fb = fb_followers(site['fb'])
-        tw = tw_followers(site['tw'])
-        yt = yt_followers(site['yt'])
-        ig = ig_followers(site['ig'])
-        pi = pi_followers(site['pi'])
+        fb = fb_followers(site['fb'].replace(',', ''))
+        tw = tw_followers(site['tw'].replace(',', ''))
+        yt = yt_followers(site['yt'].replace(',', ''))
+        ig = ig_followers(site['ig'].replace(',', ''))
+        pi = pi_followers(site['pi'].replace(',', ''))
         # li = li_followers(site['li'])
         report += f'''\
 -----------------------------------------
 {site['site'].ljust(3)}  \
-{fb.rjust(6)} \
-{tw.rjust(7)} \
-{yt.rjust(5)} \
-{ig.rjust(6)} \
-{pi.rjust(6)}
+{(utils.humanize(fb)).rjust(6)} \
+{(utils.humanize(tw)).rjust(7)} \
+{(utils.humanize(yt)).rjust(5)} \
+{(utils.humanize(ig)).rjust(6)} \
+{(utils.humanize(pi)).rjust(6)}
 '''
     print(report)
 

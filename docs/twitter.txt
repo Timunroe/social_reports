@@ -1,22 +1,111 @@
-Twitter
+Keep in mind:
+* Visitors from social media general rank behind loyal (typed/bookmarked) visitors and search visitors in terms of page consumption. But the are better than visitors from curation sites (Google News).
+But social media visitors are unique in that we have a place to engage with them; that's hard to do with the other 3 categories of visitors.
+* How much time and effort do we want to spend on social visitors? Not much, but enough. 
+Subscription data will help, but we also have to keep an eye on the top of the funnel.
+
+Developments:
+* Move to scheduled posting (control of time and volume) in September 2018
+* Loss of 3Down at start of 2019, a significant source of Twitter-heavy page views.
+* Full metering in effect late December 2018
+* Hard locking of articles in February 2019
+
+Challenges: 
+* Focus on audience (engagement), or focus on finding/producing content
+* Post optimization, or post volume
+* Improving post efficiency (both content choice and optimization). 
+Most posts perform subpar; do less of the dogs, more of the stars
+ 
+We've seen growth in number of Facebook and Twitters followers in the past year,
+though Facebook growth has been about 3 times that of Twitter.
+But our results (page views) are about the same or much less.
+Facebook page views June to June: +1.7%
+Twitter page views June to June: -39%
+
+See graph: fb_twitter_June_to_June.png
+
+Comparing PV and UV from social networks:
+
+From Omniture:
+=========================================================
+                  2  0  1  8            2  0  1  9  
+             PV   PV%    UV   UV%    PV   PV%    UV   UV%
+---------------------------------------------------------
+Facebook   745K  12.8  257K  16.9   758K  13    358K  23.5
+Twitter    158K*  2.1  68.5K* 2.8    97K  1.7   41K   2.7
+LinkedIn   2.2K    0   1.5K   0.1   6.7K  0.1  5.7K   0.4
+Instagram  1.5K    0   1.3K   0.1    732   0    501    0
+Pinterest   296    0    247    0     321   0    255    0
+YouTube      61    0     45    0     329   0    255    0
+
+* Minus 3Down
 
 
-June 2018 vs June 2019
+FACEBOOK: NOW WHAT
 
+We have more fans, getting about same number of page views, 
+we're posting more, we follow best practices ... the big difference is reach.
+How many people see our content is partly up to us, 
+but very much at the whim of Facebook.
+
+June 2018 vs June 2019 by Facebook metrics 
+===============================================
+        Posts  Impressions Impressions Reach Reach Link    Reach  Impressions
+                               CTR            CTR  clicks  /post  /post
+------------------------------------------------------------------------------     
+Jun 18  1091     12.6M        3.1       8.9M  4.3   388K    8181   11534
+Jun 19  1319     14.1M        1.7       2.9M  8.3   244K    2218   10676
+
+Recommendation:
+1. Improve efficiency of post by content choice.
+Produce regular reports to web team showing the best and worst performing posts, try to glean learnings.
+2. Enhance posts with staff video or 'social' video where possible.
+
+
+TWITTER: NOW WHAT
+I would chalk much of the loss to 3Down, less volume, and the paywall.
+However, I want to investigate 2 areas: 
+1. are we making best use hashtags, especially #HamOnt.
+Perhaps we need to develop more; we have the clout.
+2. is there any linkage between longer Tweets and engagement.
+In other words, are we giving readers so much they don't need to click.
+
+May 2016 - May 2017 (pre-3Down): 202K page views per month
+
+June 2018 vs June 2019: TheSpec account
+=======================================
              June '18 | June '19
+---------------------------------------
 Impressions    7.1M      4.9M
 Engagement     2.4%      2.2%
 Link clicks  132.3K     87.4K
 Retweets       4.2K      1.8K
 Likes          8.2K      5.6K
 Replies        1.9K      1.6K
----------------------------------
 Tweets         2034      1344
-Profile visits           32.5K
-New followers  290       204
-Mentions                 4,707
-Fans
-Local %
+New followers  290        204
+
+Recommendation:
+1. Improve efficiency of post by content choice.
+Produce regular reports to web team showing the best and worst performing posts, try to glean learnings.
+2. Investigate hashtags use, tweet lengths
+3. I'm leary of posting more (time vs return), but I think we could ramp up repetition of top posts through the day and/or week.
+
+
+LINKEDIN: NOW WHAT
+We've posted more to LinkedIn, and we've seen growth.
+It's still a drop in the bucket, but I think LinkedIn could offer more page views if we work smartly.
+While business is not as much in our wheelhouse as it used to be, we do have content.
+
+Recommendation:
+1. Make sure everyone on web team is aware of posting to LinkedIn when using Hootsuite.
+
+INSTAGRAM: NOW WHAT
+We regained our original account and have posted to it.
+And yet we had more page views from Instagram in June 2018 than June 2019.
+
+
+
 
 
 SOCIAL MEDIA FOLLOWERS
@@ -34,9 +123,28 @@ SCS   24408   17586   210    387    NA
 -----------------------------------------
 NFR   37608   14281   NA     NA     112
 -----------------------------------------
-WT    14256    9368    57    819      2
+WT    14256    9368    57    819       
 -----------------------------------------
 PE    14912   21973     5   1144     82
+
+Week No. 28, 2019
+==============================================
+SITE     FB      TW    YT     IG    PI     LI
+----------------------------------------------
+TS     467K  964.1K 34.9K 113.5K   9.2K  12.8K
+----------------------------------------------
+HS    48.7K  114.9K   818   6.1K    181   2.0K
+----------------------------------------------
+WRR   21.6K   82.6K   206   2.8K    535  1.0K
+----------------------------------------------
+SCS   24.4K   17.6K   210    387      0     0
+----------------------------------------------
+NFR   37.6K   14.3K     0      0      0    112
+----------------------------------------------
+WT    14.3K    9.4K    57    822      0      2
+----------------------------------------------
+PE    14.9K     22K     5   1.1K      0     82
+
 
 SOCIAL MEDIA FOLLOWERS
 Week No. 27, 2019
