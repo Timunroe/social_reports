@@ -1,0 +1,83 @@
+Twitter
+
+
+June 2018 vs June 2019
+
+             June '18 | June '19
+Impressions    7.1M      4.9M
+Engagement     2.4%      2.2%
+Link clicks  132.3K     87.4K
+Retweets       4.2K      1.8K
+Likes          8.2K      5.6K
+Replies        1.9K      1.6K
+---------------------------------
+Tweets         2034      1344
+Profile visits           32.5K
+New followers  290       204
+Mentions                 4,707
+Fans
+Local %
+
+
+SOCIAL MEDIA FOLLOWERS
+Week No. 28, 2019
+=========================================
+SITE     FB      TW    YT     IG    LI
+-----------------------------------------
+TS   466954  964104 34928 113494  12787
+-----------------------------------------
+HS    48673  114852   818   6080   2081
+-----------------------------------------
+WRR   21587   82565   206   2832   1050
+-----------------------------------------
+SCS   24408   17586   210    387    NA
+-----------------------------------------
+NFR   37608   14281   NA     NA     112
+-----------------------------------------
+WT    14256    9368    57    819      2
+-----------------------------------------
+PE    14912   21973     5   1144     82
+
+SOCIAL MEDIA FOLLOWERS
+Week No. 27, 2019
+=================================
+SITE     FB      TW    YT     IG 
+---------------------------------
+TS   466947  963470 34781 113002
+---------------------------------
+HS    48627  114777   811   5979
+---------------------------------
+WRR   21589   82572   207   2813
+---------------------------------
+SCS   24344   17575   208    386
+---------------------------------
+NFR   37569   14272   
+---------------------------------
+WT    14229    9359    56    794          
+---------------------------------
+PE    14852   21979     5   1139
+
+Data from 04-2018
+=================================
+SITE     FB      TW
+---------------------------------
+HS    42754  109474
+---------------------------------
+WRR   17801   80706
+---------------------------------
+SCS   20817   15771
+---------------------------------
+NFR   36298   13629
+---------------------------------
+WT    13167    8558
+---------------------------------
+PE    11795   20812
+
+
+Regional dailies accounted for 14.45M page views in June. The communities, 7.85M.
+
+Definitions:
+Engagement rate: The number of engagements (clicks, retweets, replies, follows and likes), divided by the total number of impressions.
+Engagements: Total number of times a user has interacted with a Tweet. This includes all clicks anywhere on the Tweet (including hashtags, links, avatar, username and Tweet expansion), retweets, replies, follows and likes.
+Impressions: Number of times users saw the Tweet on Twitter. Note: this is not users, as users could see the same tweet multiple times, and they would all count.
+

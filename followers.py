@@ -158,13 +158,10 @@ def pi_followers(url):
     if url:
         session = HTMLSession()
         r = session.get(url)
-        results = r.html.find('div.tBJ.dyH.iFc.SMy._S5.pBj.DrD.IZT.mWe')
-        # for result in results:
-            # if 'follow' in result.text:
-                # followers = result.text.replace('people follow this', '').replace(',', '')
-        # return followers.strip()
-        print(results)
-        return
+        r.html.render()
+        results = r.html.find('span.tBJ.dyH.iFc.SMy._S5.pBj.DrD.mWe')
+        followers = results[0].text
+        return followers.strip()
     else:
         return ''
 
