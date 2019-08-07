@@ -189,6 +189,13 @@ SITE     FB      TW    YT     IG    PI
 {(utils.humanize(yt)).rjust(5)} \
 {(utils.humanize(ig)).rjust(6)} \
 {(utils.humanize(pi)).rjust(6)}
+-----------------------------------------
+{site['site'].ljust(3)}  \
+{fb.rjust(7)} \
+{tw.rjust(8)} \
+{yt.rjust(6)} \
+{ig.rjust(7)} \
+{pi.rjust(7)}
 '''
     print(report)
 
