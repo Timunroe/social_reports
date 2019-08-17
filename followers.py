@@ -170,8 +170,9 @@ def pi_followers(url):
 def main():
     report = f'''SOCIAL MEDIA FOLLOWERS
 Week No. {date.today().isocalendar()[1]}, {date.today().isocalendar()[0]}
-=========================================
-SITE     FB      TW    YT     IG    PI
+=============================================
+SITE     FB      TW    YT     IG    PI     LI
+---------------------------------------------
 '''
     for site in sites:
         print(f'''Processing {site['site']}''')
