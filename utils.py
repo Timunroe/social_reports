@@ -109,7 +109,7 @@ def percentage(part, total):
 # exception, it has to return a string
 def humanize(value, fraction_point=1):
     if value != '':
-        if value == 0:
+        if value == 0 or value == '0':
             return '0'
         value.replace(',', '')
         powers = [10 ** x for x in (12, 9, 6, 3, 0)]

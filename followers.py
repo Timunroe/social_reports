@@ -4,6 +4,7 @@ import re
 import json
 from datetime import date
 import utils
+import time
 
 sites = [
     {
@@ -118,14 +119,13 @@ def yt_followers(url):
         session = HTMLSession()
         r = session.get(url)
         results = r.html.find('script')
+        followers = '0'
         for result in results:
             if 'subscriber' in result.text:
-                x = re.search(r"\d{1,3}(,\d{3})*(\.\d+)? subscribers", result.text)
-                if x:
-                    followers = x.group().replace(' subscribers', '').replace(',', '')
+                followers = (re.search(r'.*text\":\"(\d.*) subscribers.*', result.text)).group(1)
         return followers.strip()
     else:
-        return ''
+        return '0'
 
 
 def tw_followers(url):
@@ -149,6 +149,7 @@ def fb_followers(url):
     session = HTMLSession()
     r = session.get(url)
     results = r.html.find('div._4bl9 > div')
+    followers = '0'
     for result in results:
         if 'follow' in result.text:
             followers = result.text.replace('people follow this', '').replace(',', '')
@@ -161,7 +162,7 @@ def pi_followers(url):
         r = session.get(url)
         r.html.render()
         results = r.html.find('span.tBJ.dyH.iFc.SMy._S5.pBj.DrD.mWe')
-        followers = results[0].text
+        followers = (results[0].text).replace(',', '')
         return followers.strip()
     else:
         return ''
@@ -176,18 +177,21 @@ SITE     FB      TW    YT     IG    PI     LI
 '''
     for site in sites:
         print(f'''Processing {site['site']}''')
-        fb = fb_followers(site['fb'].replace(',', ''))
-        tw = tw_followers(site['tw'].replace(',', ''))
-        yt = yt_followers(site['yt'].replace(',', ''))
-        ig = ig_followers(site['ig'].replace(',', ''))
-        pi = pi_followers(site['pi'].replace(',', ''))
+        fb = fb_followers(site['fb'])
+        tw = tw_followers(site['tw'])
+        yt = yt_followers(site['yt'])
+        # print('yt followers: ', yt)
+        ig = ig_followers(site['ig'])
+        # print('ig followers: ', ig)
+        pi = pi_followers(site['pi'])
+        # print('pi followers: ', pi)
         # li = li_followers(site['li'])
         report += f'''\
 -----------------------------------------
 {site['site'].ljust(3)}  \
 {(utils.humanize(fb)).rjust(6)} \
 {(utils.humanize(tw)).rjust(7)} \
-{(utils.humanize(yt)).rjust(5)} \
+{yt.rjust(5)} \
 {(utils.humanize(ig)).rjust(6)} \
 {(utils.humanize(pi)).rjust(6)}
 -----------------------------------------
