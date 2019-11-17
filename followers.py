@@ -57,7 +57,7 @@ sites = [
         'fb': 'https://www.facebook.com/wellandtribune/',
         'tw': 'https://twitter.com/WellandTribune',
         'yt': 'https://www.youtube.com/channel/UCVClY5BoeVYaj834JOKLZUw',
-        'ig': 'https://www.instagram.com/thewellandtribune/',
+        'ig': 'https://www.instagram.com/thetribune/',
         'pi': '',
         # 'li': ''
     },
