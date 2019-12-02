@@ -106,7 +106,7 @@ def ig_followers(url):
         else:
             return ''
     else:
-        return ''
+        return '0'
 
 
 def yt_followers(url):
@@ -165,7 +165,7 @@ def pi_followers(url):
         followers = (results[0].text).replace(',', '')
         return followers.strip()
     else:
-        return ''
+        return '0'
 
 
 def main():
